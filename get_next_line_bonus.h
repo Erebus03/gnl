@@ -6,7 +6,7 @@
 /*   By: araji <araji@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 12:12:00 by araji             #+#    #+#             */
-/*   Updated: 2024/12/09 11:33:21 by araji            ###   ########.fr       */
+/*   Updated: 2024/12/10 15:09:58 by araji            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int		get_line_len_bns(t_list *tmp);
 t_list	*ft_lstlast_bns(t_list *lst);
 t_list	*ft_lstnew_bns(char *content);
 void	extract_bns(t_list *lst, char **line);
-char	*get_next_line_bns(int fd);
+char	*get_next_line(int fd);
 int		found_newline_bns(t_list *node);
 void	lst_add_back_bns(t_list **lst, t_list *new);
 void	ft_lstclear_bns(t_list **lst);
